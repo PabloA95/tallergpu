@@ -1,0 +1,163 @@
+CPU
+1024
+PS C:\Users\Federico\Downloads> .\a.exe 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de ejecucion en CPU 0.000000
+65536
+PS C:\Users\Federico\Downloads> .\a.exe 65536
+-> Tiempo de inicializacion de los vectores en CPU 0.001000
+-> Tiempo de ejecucion en CPU 0.000000
+1048576
+PS C:\Users\Federico\Downloads> .\a.exe 1048576
+-> Tiempo de inicializacion de los vectores en CPU 0.004000
+-> Tiempo de ejecucion en CPU 0.003000     
+56975000
+PS C:\Users\Federico\Downloads> .\a.exe 56975000
+-> Tiempo de inicializacion de los vectores en CPU 0.201000
+-> Tiempo de ejecucion en CPU 0.123000 
+
+GPU
+1024	
+128
+PS C:\Users\Federico\Downloads> .\a.exe 1024 128
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.821000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.006000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.001000
+-> Tiempo de liberacion de las memorias 0.001000
+256
+PS C:\Users\Federico\Downloads> .\a.exe 1024 256
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.791000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.000000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.001000
+512
+PS C:\Users\Federico\Downloads> .\a.exe 1024 512
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.546000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.001000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.001000
+-> Tiempo de liberacion de las memorias 0
+1024
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.540000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.001000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.000000
+65536
+128
+PS C:\Users\Federico\Downloads> .\a.exe 65536 128
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.785000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.031000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.003000
+256
+PS C:\Users\Federico\Downloads> .\a.exe 65536 256
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.771000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.006000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.002000
+512
+PS C:\Users\Federico\Downloads> .\a.exe 65536 512
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.774000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.005000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.002000
+1024
+PS C:\Users\Federico\Downloads> .\a.exe 65536 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.000000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.761000
+-> Tiempo de memset de los vectores en GPU 0.000000
+no error
+-> Tiempo de ejecucion en GPU 0.006000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.001000
+
+
+1048576
+128
+PS C:\Users\Federico\Downloads> .\a.exe 1048576 128
+-> Tiempo de inicializacion de los vectores en CPU 0.004000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.754000
+-> Tiempo de memset de los vectores en GPU 0.002000
+no error
+-> Tiempo de ejecucion en GPU 0.023000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.001000
+-> Tiempo de liberacion de las memorias 0.002000
+256
+PS C:\Users\Federico\Downloads> .\a.exe 1048576 256
+-> Tiempo de inicializacion de los vectores en CPU 0.004000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.752000
+-> Tiempo de memset de los vectores en GPU 0.001000
+no error
+-> Tiempo de ejecucion en GPU 0.005000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.002000
+512
+PS C:\Users\Federico\Downloads> .\a.exe 1048576 512
+-> Tiempo de inicializacion de los vectores en CPU 0.004000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.761000
+-> Tiempo de memset de los vectores en GPU 0.002000
+no error
+-> Tiempo de ejecucion en GPU 0.005000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.001000
+-> Tiempo de liberacion de las memorias 0.002000
+1024
+PS C:\Users\Federico\Downloads> .\a.exe 1048576 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.003000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.760000
+-> Tiempo de memset de los vectores en GPU 0.002000
+no error
+-> Tiempo de ejecucion en GPU 0.003000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.002000
+
+56975000
+128
+muy pocos threads
+256
+PS C:\Users\Federico\Downloads> .\a.exe 56975000 256
+-> Tiempo de inicializacion de los vectores en CPU 0.228000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.609000
+-> Tiempo de memset de los vectores en GPU 0.075000
+no error
+-> Tiempo de ejecucion en GPU 0.290000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.001000
+-> Tiempo de liberacion de las memorias 0.071000
+512
+PS C:\Users\Federico\Downloads> .\a.exe 56975000 512
+-> Tiempo de inicializacion de los vectores en CPU 0.202000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.511000
+-> Tiempo de memset de los vectores en GPU 0.070000
+no error
+-> Tiempo de ejecucion en GPU 0.136000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000000
+-> Tiempo de liberacion de las memorias 0.054000
+1024
+PS C:\Users\Federico\Downloads> .\a.exe 56975000 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.219000
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.776000
+-> Tiempo de memset de los vectores en GPU 0.074000
+no error
+-> Tiempo de ejecucion en GPU 0.072000
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.001000
+-> Tiempo de liberacion de las memorias 0.040000
+

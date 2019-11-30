@@ -1,0 +1,283 @@
+CPU
+n=1024
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.000493
+-> Tiempo de ejecucion en CPU 0.000006
+
+
+n=65536
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 65536
+-> Tiempo de inicializacion de los vectores en CPU 0.000925
+-> Tiempo de ejecucion en CPU 0.000400
+
+
+n=1048576
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1048576-> Tiempo de inicializacion de los vectores en CPU 0.007382
+-> Tiempo de ejecucion en CPU 0.006369
+
+
+n=56975000
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 56975000
+-> Tiempo de inicializacion de los vectores en CPU 0.226566
+-> Tiempo de ejecucion en CPU 0.182550
+
+
+gpu
+n=1024
+thr_x_blk=128
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1024 128
+-> Tiempo de inicializacion de los vectores en CPU 0.000013
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.466391
+-> Tiempo de memset de los vectores en GPU 0.000028
+no error
+-> Tiempo de ejecucion en GPU 0.000125
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000176
+-> Tiempo de liberacion de las memorias 0.000154
+
+0.000028
+0.000125
+0.000176
+
+0.000329
+
+thr_x_blk=256
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1024 256
+-> Tiempo de inicializacion de los vectores en CPU 0.000014
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.464402
+-> Tiempo de memset de los vectores en GPU 0.000040
+no error
+-> Tiempo de ejecucion en GPU 0.000229
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000217
+-> Tiempo de liberacion de las memorias 0.000208
+
+0.000040
+0.000229
+0.000217
+
+0.000486
+
+thr_x_blk=512
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1024 512
+-> Tiempo de inicializacion de los vectores en CPU 0.000013
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.479325
+-> Tiempo de memset de los vectores en GPU 0.000041
+no error
+-> Tiempo de ejecucion en GPU 0.000216
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000205
+-> Tiempo de liberacion de las memorias 0.000189
+
+0.000041
+0.000216
+0.000205
+
+0.000462
+
+thr_x_blk=1024
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1024 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.000014
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.464765
+-> Tiempo de memset de los vectores en GPU 0.000032
+no error
+-> Tiempo de ejecucion en GPU 0.000266
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000169
+-> Tiempo de liberacion de las memorias 0.000154
+
+0.000032
+0.000266
+0.000169
+
+0.000467
+
+n=65536
+thr_x_blk=128
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 65536 128
+-> Tiempo de inicializacion de los vectores en CPU 0.000473
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.464988
+-> Tiempo de memset de los vectores en GPU 0.000097
+no error
+-> Tiempo de ejecucion en GPU 0.002409
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000188
+-> Tiempo de liberacion de las memorias 0.000198
+
+0.000097
+0.002409
+0.000188
+
+0.002694
+
+thr_x_blk=256
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 65536 256
+-> Tiempo de inicializacion de los vectores en CPU 0.000512
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.479347
+-> Tiempo de memset de los vectores en GPU 0.000107
+no error
+-> Tiempo de ejecucion en GPU 0.001600
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000189
+-> Tiempo de liberacion de las memorias 0.000194
+
+0.000107
+0.001600
+0.000189
+
+0.001896
+
+thr_x_blk=512
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 65536 512
+-> Tiempo de inicializacion de los vectores en CPU 0.000478
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.469121
+-> Tiempo de memset de los vectores en GPU 0.000094
+no error
+-> Tiempo de ejecucion en GPU 0.001471
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000180
+-> Tiempo de liberacion de las memorias 0.000185
+
+0.000094
+0.001471
+0.000180
+
+0.001745
+
+thr_x_blk=1024
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 65536 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.000511
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.467094
+-> Tiempo de memset de los vectores en GPU 0.000079
+no error
+-> Tiempo de ejecucion en GPU 0.002074
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000262
+-> Tiempo de liberacion de las memorias 0.000178
+
+0.000079
+0.002074
+0.000262
+
+0.002415
+
+n=1048576
+thr_x_blk=128
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1048576 128
+-> Tiempo de inicializacion de los vectores en CPU 0.007055
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.475528
+-> Tiempo de memset de los vectores en GPU 0.000869
+no error
+-> Tiempo de ejecucion en GPU 0.013934
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000195
+-> Tiempo de liberacion de las memorias 0.000337
+
+0.000869
+0.013934
+0.000195
+
+0.014998
+
+thr_x_blk=256
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1048576 256
+-> Tiempo de inicializacion de los vectores en CPU 0.007431
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.475708
+-> Tiempo de memset de los vectores en GPU 0.000901
+no error
+-> Tiempo de ejecucion en GPU 0.001261
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000339
+-> Tiempo de liberacion de las memorias 0.000361
+
+0.000901
+0.001261
+0.000339
+
+0.002501
+
+thr_x_blk=512
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1048576 512
+-> Tiempo de inicializacion de los vectores en CPU 0.007125
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.481660
+-> Tiempo de memset de los vectores en GPU 0.000984
+no error
+-> Tiempo de ejecucion en GPU 0.000782
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000445
+-> Tiempo de liberacion de las memorias 0.000465
+
+0.000984
+0.000782
+0.000445
+
+0.002211
+
+thr_x_blk=1024
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 1048576 1024
+-> Tiempo de inicializacion de los vectores en CPU 0.006798
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.465632
+-> Tiempo de memset de los vectores en GPU 0.000852
+no error
+-> Tiempo de ejecucion en GPU 0.000427
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000199
+-> Tiempo de liberacion de las memorias 0.000329
+
+0.000852
+0.000427
+0.000199
+
+0.001478
+
+n=56975000
+thr_x_blk=128
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 56975000 128
+-> Tiempo de inicializacion de los vectores en CPU 0.239523
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.463965
+-> Tiempo de memset de los vectores en GPU 0.042963
+no error
+-> Tiempo de ejecucion en GPU 0.634753
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000315
+-> Tiempo de liberacion de las memorias 0.001290
+
+0.042963
+0.634753
+0.000315
+
+0.678031
+
+thr_x_blk=256
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 56975000 256
+-> Tiempo de inicializacion de los vectores en CPU 0.241793
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.463388
+-> Tiempo de memset de los vectores en GPU 0.038513
+no error
+-> Tiempo de ejecucion en GPU 0.056142
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000185
+-> Tiempo de liberacion de las memorias 0.000966
+
+0.038513
+0.056142
+0.000185
+
+0.094840
+
+thr_x_blk=512
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 56975000 512
+-> Tiempo de inicializacion de los vectores en CPU 0.239563
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.461913
+-> Tiempo de memset de los vectores en GPU 0.039903
+no error
+-> Tiempo de ejecucion en GPU 0.028402
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000191
+-> Tiempo de liberacion de las memorias 0.000842
+
+0.039903
+0.028402
+0.000191
+
+0.068496
+
+thr_x_blk=1024
+paralelos12@postgrado12:~/Descargas/GPU/Entrega$ ./a.out 56975000 1024-> Tiempo de inicializacion de los vectores en CPU 0.240375
+-> Tiempo de inicializacion y copia de los vectores en GPU 0.462490
+-> Tiempo de memset de los vectores en GPU 0.040436
+no error
+-> Tiempo de ejecucion en GPU 0.014766
+-> Tiempo de copia del arreglo de apariciones de GPU a CPU 0.000186
+-> Tiempo de liberacion de las memorias 0.000765
+
+0.040436
+0.014766
+0.000186
+
+0.055388
